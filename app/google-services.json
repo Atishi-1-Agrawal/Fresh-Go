@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "366875098022",
+    "project_id": "freshgo-ee3f0",
+    "storage_bucket": "freshgo-ee3f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366875098022:android:b56833a253125f6d1f6d67",
+        "android_client_info": {
+          "package_name": "com.example.dti.freshgo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366875098022-o62sg3buui8o5eoss4rgfmj6meofqb21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGAqfvdlSziGaBYVwLtMtXpR3Xcleu4dI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366875098022-o62sg3buui8o5eoss4rgfmj6meofqb21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

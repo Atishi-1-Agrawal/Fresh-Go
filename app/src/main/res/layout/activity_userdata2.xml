@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".userdataActivity2"
+    android:background="@drawable/bkg">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/background"
+        android:drawablePadding="8dp"
+        android:hint="FULL NAME"
+        android:textColorHint="@color/black"
+        android:padding="8dp"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:id="@+id/etContact"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/background"
+        android:drawablePadding="8dp"
+        android:hint="CONTACT NO."
+        android:textColorHint="@color/black"
+        android:padding="8dp"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:id="@+id/etDOB"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/background"
+        android:drawablePadding="8dp"
+        android:hint="D.O.B"
+        android:textColorHint="@color/black"
+        android:padding="8dp"
+        android:textColor="@color/gray" />
+
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/background"
+        android:drawablePadding="8dp"
+        android:hint="GENDER"
+        android:textColorHint="@color/black"
+        android:padding="8dp"
+        android:textColor="@color/gray" />
+
+
+    <Button
+        android:id="@+id/Save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:textAllCaps="false"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
