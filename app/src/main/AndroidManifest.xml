@@ -12,6 +12,9 @@
         android:theme="@style/Theme.FreshGo"
         tools:targetApi="31">
         <activity
+            android:name=".activity.CategoryActivity"
+            android:exported="false" />
+        <activity
             android:name=".MapsActivity"
             android:exported="false" />
         <activity
@@ -22,8 +25,7 @@
             android:exported="false" />
         <activity
             android:name=".aboutusActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"></activity>
         <activity
             android:name=".signinActivity"
             android:exported="false" />
