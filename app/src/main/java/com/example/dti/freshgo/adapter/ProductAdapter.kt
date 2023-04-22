@@ -1,10 +1,12 @@
 package com.example.dti.freshgo.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.dti.freshgo.activity.ProductDetailsActivity
 import com.example.dti.freshgo.databinding.LayoutProductItemBinding
 import com.example.dti.freshgo.model.AddProductModel
 
@@ -33,6 +35,12 @@ class ProductAdapter(val context: Context, val list: ArrayList<AddProductModel>)
 
 
         holder.binding.button.text = data.productSp
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, ProductDetailsActivity::class.java)
+            intent.putExtra("id",list[position].productId)
+            context.startActivity(intent)
+        }
     }
 
 }
